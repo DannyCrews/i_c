@@ -5,6 +5,6 @@ int main(void)
 {
   float area, radius=2.5;
   area = PI*radius*radius;
-  printf("The value of the area is %f\n", area);
+  printf("The area of a circle with radius %f is %f\n", radius, area);
   return 0;
 }
